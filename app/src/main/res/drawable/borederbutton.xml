@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+<item tools:ignore="ExtraText">
+
+    <shape android:shape="rectangle">
+        <solid
+            android:color="@color/white">
+
+        </solid>
+    <stroke android:color="#000075"
+        android:width="10dp">
+    </stroke>
+    </shape>
+
+</item>
+</selector>

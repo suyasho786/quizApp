@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/result_activity"
+    tools:context=".MainActivity3">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Result"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="45dp">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="145dp"
+        android:layout_marginTop="45dp"
+        android:layout_gravity="center"
+        android:layout_height="145dp"
+        android:background="@drawable/trophy">
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="37sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="Hey Congrats">
+
+    </TextView>
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:textColor="@color/white"
+        android:textSize="37sp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/scoreCard"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:textColor="@color/white"
+        android:textSize="37sp">
+
+    </TextView>
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/finishTheActivity"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColor="@color/white"
+        android:text="फिनिSH"
+        android:backgroundTint="@color/black"
+        android:textSize="30sp">
+
+    </Button>
+</LinearLayout>

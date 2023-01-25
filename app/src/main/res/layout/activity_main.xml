@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/raychan_tuziyd73zjo_unsplash"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:textColor="#3F00FF"
+    android:textSize="40sp"
+    android:text="@string/quiz_app"
+    android:textStyle="bold"
+
+    android:gravity="center">
+
+</TextView>
+<com.google.android.material.card.MaterialCardView
+    android:layout_width="match_parent"
+    app:cardCornerRadius="25dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="20dp"
+
+    android:layout_marginEnd="15dp"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WELCOME"
+            android:textSize="30sp"
+            android:gravity="center"
+
+            android:textStyle="bold"
+            android:textColor="#363843"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WHAT IS YOUR NAME"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="?android:attr/colorActivatedHighlight"
+            >
+        </TextView>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            >
+
+            <androidx.appcompat.widget.AppCompatEditText
+
+                android:id="@+id/edText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="eg. Suyash"
+                android:inputType="textCapWords"
+
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck">
+
+            </androidx.appcompat.widget.AppCompatEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:id="@+id/buttonStart"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:textSize="20sp"
+            android:text="START">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
+</LinearLayout>
